@@ -1,4 +1,4 @@
-1. 概述
+### 1. 概述
 
         PPP（Point-to-Point Protocol）协议是一种在点到点链路上传输、封装网络层数据包的数据链路层协议。
 
@@ -8,7 +8,7 @@
 
         PPPoE报文包含固定格式的报文头和可变长度的payload，而payload：包含了版本、类型、代码、会话ID、长度、payload负载。
 
- 2. PPPoE发现的四个阶段
+### 2. PPPoE发现的四个阶段
 
     （1）PADI：PPPoE Active Discovery Initial
 
