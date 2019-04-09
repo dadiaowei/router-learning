@@ -18,17 +18,17 @@
 
         如果服务名称为空，则说明笔记本可以接受任何服务器的服务。
 
-##（2）PADO：PPPoE Active Discovery Offer
+## （2）PADO：PPPoE Active Discovery Offer
 
         所有服务器接受到广播报文后，如果它可以提供相应的服务，则单播回复一个PADO报文。
 
         该报文包含服务器的名称。
 
-##（3） PADR：PPPoE Active Discovery Request
+## （3） PADR：PPPoE Active Discovery Request
 
         笔记本选择最先收到的Offer报文对应的服务器，并单播一个PADR报文。
 
-##（4）PADS：PPPoE Active Discovery Session-confirmation
+## （4）PADS：PPPoE Active Discovery Session-confirmation
 
 		服务器并给笔记本发送一个PADS报文，该报文包含会话ID。
 
@@ -38,7 +38,7 @@
 
         会话阶段分成两个部分：PPP认证协商；PPP报文传输。
 
-##（1）LCP协商
+## （1）LCP协商
 
         协商双方互相发送一个Config-Request报文。
 
@@ -54,13 +54,13 @@
 
         	去掉以太网帧头18字节，去掉PPPoE头8字节，得到1492Byte。
 
-##（2）认证（PAP或者CHAP）
+## （2）认证（PAP或者CHAP）
 
         PAP明文传输用户名和密码；
 
 		CHAP为三次握手验证协议，安全性较高。
 
-##（3）NCP协商
+## （3）NCP协商
 
         NCP的主要功能是协商PPP报文的网络层参数，如：IP地址、DNS服务地址。
 
