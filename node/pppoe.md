@@ -63,3 +63,7 @@
 ##（3）NCP协商
 
         NCP的主要功能是协商PPP报文的网络层参数，如：IP地址、DNS服务地址。
+
+# 参考教程
+		
+		[PPPoE报文格式及交互详解](https://blog.csdn.net/xinyuan510214/article/details/79635015)
