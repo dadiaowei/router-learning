@@ -2,7 +2,7 @@
 
         PPP（Point-to-Point Protocol）协议是一种在点到点链路上传输、封装网络层数据包的数据链路层协议。
 
-        PPPoE（PPP over Ethernet）属于链路层协议，主要功能是在以太网提供点到点的连接，采用C/S架构，
+		PPPoE（PPP over Ethernet）属于链路层协议，主要功能是在以太网提供点到点的连接，采用C/S架构，
 		建立PPP会话，以及封装PPP数据包。
 
         PPPoE包含发现（Discover）和会话（Session）两个阶段，并通过以太网的类型域（Ether_Type）进行区分。
