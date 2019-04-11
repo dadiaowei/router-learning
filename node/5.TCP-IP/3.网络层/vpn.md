@@ -1,4 +1,3 @@
-
 ##  基本定义
 
 	vpn，virtual private network， 虚拟专有网络。
@@ -34,6 +33,3 @@
 ### 3.  加密技术
 
 	加密技术由IPSec ESP实现。
-	
-	
-	
